@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject1.FXMLController">
+    <children>
+        <Button fx:id="button" layoutX="32.0" layoutY="172.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <CheckBox layoutX="28.0" layoutY="129.0" mnemonicParsing="false" text="CheckBox" />
+      <DatePicker layoutX="168.0" layoutY="24.0" />
+      <TextField layoutX="175.0" layoutY="76.0" />
+      <TextArea layoutX="142.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button id="CreateUser" layoutX="28.0" layoutY="224.0" mnemonicParsing="false" onAction="#handleButtonCreateUser" prefHeight="64.0" prefWidth="73.0" text="Button" />
+    </children>
+</AnchorPane>
